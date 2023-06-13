@@ -1,4 +1,5 @@
-#Algoritmo de Canny:
+#Algoritmo de Canny
+
 El algoritmo Canny es un algoritmo popular de detección de bordes utilizado en el procesamiento de imágenes para detectar bordes en imágenes digitales. El algoritmo fue desarrollado por John F. Canny en 1986 y es ampliamente utilizado en aplicaciones de visión por computadora. Es un proceso de múltiples etapas que involucra varios pasos:
 1. Suavizado gaussiano: En este paso, la imagen se convoluciona con un filtro gaussiano para reducir el ruido y eliminar pequeños detalles.
 2. Cálculo del gradiente: El siguiente paso implica calcular el gradiente de la imagen utilizando el operador Sobel. Esto ayuda a identificar áreas de cambio rápido en la intensidad, que corresponden a bordes.
@@ -7,12 +8,15 @@ El algoritmo Canny es un algoritmo popular de detección de bordes utilizado en 
 5. Seguimiento de borde por histéresis: En este paso final, el algoritmo sigue los bordes y conecta los bordes débiles adyacentes que están conectados a bordes fuertes. Esto ayuda a llenar los espacios vacíos y producir un borde continuo.
 
 ##Artículo:
+
 https://ieeexplore.ieee.org/abstract/document/9596109
 
 ###Resumen del artículo:
+
 Un sistema de detección de carriles es el componente más importante de un sistema de cálculo de transporte autónomo. Maneja diversos escenarios complejos, como la curvatura del carril, el desgaste de la marca del carril, el cambio de carril, los giros en U, el final y la separación de líneas. Muchas corporaciones y empresas modernas, como Tesla, han logrado la automatización parcial de segundo grado a nivel comercial. En este artículo de investigación, se propone un método de detección de carriles mejorado y optimizado mediante el algoritmo de detección de bordes Canny de OpenCV. Un método rápido y robusto que puede detectar fácilmente carriles en una transmisión de video en vivo o pregrabada. Este marco propuesto combina eficazmente el algoritmo de bordes Canny de OpenCV con la función de transformación de Hough para que pueda aplicarse en aplicaciones a pequeña escala específicamente para carritos de visitantes en un complejo de apartamentos. Las pruebas y el análisis del programa muestran que el software propuesto es muy confiable.
 
 ####Referencias:
+
 1. Xu Zhao, Xu Baojie and Wu Guoxin, "Canny edge detection based on Open CV", 2017 13th IEEE international conference on electronic measurement & instruments (ICEMI), 2017.
 2. Cao Jianfang, Lichao Chen, Min Wang and Yun Tian, "Implementing a parallel image edge detection algorithm based on the Otsu-canny operator on the Hadoop platform", Computational intelligence and neuroscience 2018, 2018.
 3. Rong Weibin et al., "An improved CANNY edge detection algorithm", 2014 IEEE international conference on mechatronics and automation, 2014.
